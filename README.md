@@ -2,12 +2,12 @@
 Скрипт для маршрутизации определенного списка адресов через VPN
 
 
-1. Устанавливаем зависимости: 
-```
-opkg update 
-opkg install openvpn-openssl luci-app-openvpn openssl-util ip ipset
-```
-
+1. Устанавливаем зависимости:
+ 
+  ```
+  opkg update; 
+  opkg install openvpn-openssl luci-app-openvpn openssl-util ip ipset
+  ```
 2. Настраиваем openvpn client. (Здесь предполагается, что сервер уже настроен и у нас есть  
   - Файл сертификата (client.crt);
   - Файл сертификата удостоверяющего центра (сa.crt);
