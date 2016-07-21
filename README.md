@@ -57,7 +57,7 @@
         option masq '1'
         option mtu_fix '1'
   ```
-3. Качаем скрипт отсюда https://gist.github.com/anonymous/5bfb2302ba20c28da2f38cbb05974811, кладем его в ```/usr/bin```, делаем исполняемым (chmod a+x).
+3. Качаем скрипт отсюда https://github.com/mbg033/openvpn-openwrt-fuckrkn/blob/master/fuck_rkn.sh, кладем его в ```/usr/bin```, делаем исполняемым (chmod a+x).
 
 4. Заходим в LuCI, Services -> OpenVPN, находим наш конфиг, жмем старт, проверяем как работает. Если все работает, то ставим галку enabled и перегружаем роутер.
 
