@@ -6,7 +6,7 @@
  
   ```
   opkg update; 
-  opkg install openvpn-openssl luci-app-openvpn openssl-util ip ipset
+  opkg install openvpn-openssl luci-app-openvpn openssl-util ip ipset ca-certificates wget
   ```
 2. Настраиваем openvpn client. (Здесь предполагается, что сервер уже настроен и у нас есть  
   - Файл сертификата (client.crt);
