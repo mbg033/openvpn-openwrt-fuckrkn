@@ -27,7 +27,7 @@
         option user 'nobody'
         option comp_lzo 'yes'
         option verb '4'
-        option remote 'your-remote-address-here''
+        option remote 'your-remote-address-here'
         option enabled '1'
         option ca '/etc/openvpn/myca.crt'
         option cert '/etc/openvpn/myclient1.crt'
